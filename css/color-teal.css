@@ -1,0 +1,52 @@
+/*-----------------------------------------------------
+
+color Stylesheet
+Version:  2.0 
+color Name: Teal
+color code: #009688
+Hover code: #00796B
+
+-----------------------------------------------------*/
+.header-area.transprent-bg {
+  background: rgba(0, 0, 0, 0) linear-gradient(0deg, rgba(0, 0, 0, 0) 10%, rgba(0, 150, 136, 0.35) 90%) repeat scroll 0 0;
+}
+.transprent-bg.sticky, .header-area.sticky {
+  background: rgba(0, 150, 136, 0.9) none repeat scroll 0 0;
+  padding: 0;
+}
+.hover {
+  background: rgba(0, 150, 136, 0.75) none repeat scroll 0 0;
+}
+.bannerText h1 span, .about-containt h3, .s-service h3 a, .address-list ul li i, .footer-text p a {
+  color: #009688;
+}
+.section-title h2::after, .border-btn, .s-service .icon, .tab-menu ul li, .filter.active, .s-sember-hover::before, .why-do-you-choose-area .panel-heading, .why-do-you-choose-area .owl-theme .owl-page.active span, .s-link::before, .contact-form input[type="submit"]:hover, .contact-form input[type="submit"]:focus, .header-area  {
+  background: #009688 none repeat scroll 0 0;
+}
+.service-arae, .pricing-area, .contacts-area{
+	background: #009688  none repeat scroll 0 0;
+}
+.tab-menu ul li:hover, .border-btn:hover, .more:hover{
+	background: #00796B none repeat scroll 0 0;
+}
+.s-service h3 a:hover, .post-title a:hover, .post-action a:hover{
+	color: #00796B;
+}
+.progress-bar-L1 {
+  background-color: #009688;
+}
+.s-service .icon {
+  box-shadow: 0 0 0 3px #ffffff, 0 0 0 7px #009688;
+}
+.single-table.active .price-body a.btn-sign-up, #scrollUp::before{
+	background-color: #E91E63;
+}
+.single-table.active .price-head, .single-table:hover .price-head, .single-table:hover .price-body a.btn-sign-up {
+	background-color: #E91E63;
+}
+.single-table .price-body a.btn-sign-up:hover {
+  background: #009688 none repeat scroll 0 0;
+}
+.contact-form input[type="text"]:focus, .contact-form input[type="email"]:focus, .contact-form textarea:focus {
+  border-bottom: 1px solid #009688;
+}
